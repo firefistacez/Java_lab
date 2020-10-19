@@ -2,20 +2,20 @@ package Constructor;
 import java.util.*;
 import java.lang.*;
 
-public class ConstructorOverloading
+public class ConcatenateReverse
 {
     StringBuffer s1=new StringBuffer();
     StringBuffer s2=new StringBuffer();
-    ConstructorOverloading()
+    ConcatenateReverse()
     {
         s1.append(" ");
     }
-    ConstructorOverloading(StringBuffer s1)
+    ConcatenateReverse(StringBuffer s1)
     {
         this.s1 = s1;
         System.out.println(s1);
     }
-    ConstructorOverloading(StringBuffer s1,StringBuffer s2)
+    ConcatenateReverse(StringBuffer s1, StringBuffer s2)
     {
         this.s1 = s1;
         this.s2 = s2;
@@ -31,6 +31,6 @@ public class ConstructorOverloading
         StringBuffer string1 = new StringBuffer(scan.next());
         System.out.print("String2-");
         StringBuffer string2 = new StringBuffer(scan.next());
-        ConstructorOverloading flag = new ConstructorOverloading(string1,string2);
+        ConcatenateReverse flag = new ConcatenateReverse(string1,string2);
     }
 }
