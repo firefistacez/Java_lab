@@ -1,0 +1,3 @@
+Using packages in Java creating an interface, and the respective classes. We are designing a sample shop where the customers enter if they are a regular customer or seasonal customer and based on that the code runs. Separate interface is created in Pack1 . The regular customer methods are in the package Pack2 regularcutomer.java class and for seasonal customer in package Pack3 seasonalcustomer.java file
+
+This is done to show how custome made packages work in java
