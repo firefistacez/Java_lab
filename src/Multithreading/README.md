@@ -1,4 +1,5 @@
 https://www.codechef.com/problems/KGP14D
+/*Check the link for the question and then check the sample run*/
 
 MULTITHREADING
 
@@ -20,6 +21,7 @@ specified are more than 30 minutes after the start of the first interview at t =
 Schedule the interviews for the candidate based on the priority computed. Apply multithreading
 concept for the given scenario. Create k threads for different candidates, schedule their
 interviews and find out the list of candidates who will miss the train
+
 SAMPLE RUN
 
 Enter no of candidates: 4
