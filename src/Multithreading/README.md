@@ -21,7 +21,11 @@ Schedule the interviews for the candidate based on the priority computed. Apply 
 concept for the given scenario. Create k threads for different candidates, schedule their
 interviews and find out the list of candidates who will miss the train
 SAMPLE RUN
+
 Enter no of candidates: 4
+
 Enter the estimated interview time: 35 45 40 35
+
 Enter the departure time : 70 90 110 -1
+
 Candidate id who will miss the train: 2
